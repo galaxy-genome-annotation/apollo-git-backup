@@ -2,5 +2,5 @@ bcbio-gff
 biopython
 requests
 junit-xml
-apollo>=2.0
+apollo==2.0
 xunit-wrapper
