@@ -1,0 +1,6 @@
+bcbio-gff
+biopython
+requests
+junit-xml
+apollo>=2.0
+xunit-wrapper
