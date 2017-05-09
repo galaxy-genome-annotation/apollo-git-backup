@@ -69,3 +69,21 @@ that took place over time:
 Another example showing the progression of feature renames over time:
 
 ![](./media/Utvalg_095.png)
+
+## Setting Up Your Own Backup
+
+If you want to use this repo as a basis for backing up an apollo instance,
+great! First: **fork it**. You will need to have your own copy of the repo as
+the main build script **commits data to it automatically**
+
+Then, we recommend running it in Jenkins, under an account with commit
+privileges to your repo. Over time, this repo will fill up with all of your
+changes and you'll be able to go backwards and forwards in time for all facets
+of annotation, not just structural model changes.
+
+## License
+
+GPLv3
+
+(Remember that you're running it on your own server and probably not
+distributing it to anyone, thus there's no need to share if you don't want to.)
