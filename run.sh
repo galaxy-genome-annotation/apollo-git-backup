@@ -1,6 +1,6 @@
 rm -f data/*
 # Export data
-python export.py https://cpt.tamu.edu/apollo_api $USERNAME $PASSWORD > report.xml
+python export.py https://cpt.tamu.edu/apollo_api $APOLLO_USERNAME $APOLLO_PASSWORD > report.xml
 git add -f data
 date=$(date)
 git commit -m "Automated Commit [$date]"
