@@ -87,3 +87,7 @@ GPLv3
 
 (Remember that you're running it on your own server and probably not
 distributing it to anyone, thus there's no need to share if you don't want to.)
+
+## Support
+
+This material is based upon work supported by the National Science Foundation under Grant Number (Award 1565146)
